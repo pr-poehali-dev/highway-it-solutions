@@ -126,10 +126,10 @@ const REVIEWS = [
 ];
 
 const TEAM = [
-  { name: "Роман Кузнецов", role: "Founder & CEO", avatar: "РК", color: "from-cyan-500 to-blue-600" },
-  { name: "Екатерина Дмитриева", role: "Head of Talent", avatar: "ЕД", color: "from-purple-500 to-pink-500" },
-  { name: "Артём Новиков", role: "CTO", avatar: "АН", color: "from-green-400 to-teal-600" },
-  { name: "Ольга Семёнова", role: "Head of Sales", avatar: "ОС", color: "from-orange-400 to-amber-500" },
+  { name: "Роман Кузнецов", role: "Founder & CEO", avatar: "РК" },
+  { name: "Екатерина Дмитриева", role: "Head of Talent", avatar: "ЕД" },
+  { name: "Артём Новиков", role: "CTO", avatar: "АН" },
+  { name: "Ольга Семёнова", role: "Head of Sales", avatar: "ОС" },
 ];
 
 function StarRating({ value }: { value: number }) {
@@ -535,7 +535,7 @@ export default function Index() {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {TEAM.map((m) => (
                 <div key={m.name} className="glass-card rounded-2xl p-5 text-center">
-                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${m.color} flex items-center justify-center text-white font-display font-bold text-xl mx-auto mb-3`}>{m.avatar}</div>
+                  <div className="w-16 h-16 rounded-2xl flex items-center justify-center text-neon-cyan font-display font-bold text-xl mx-auto mb-3" style={{ background: 'rgba(0,212,255,0.08)', border: '1px solid rgba(0,212,255,0.2)' }}>{m.avatar}</div>
                   <div className="text-white font-semibold text-sm">{m.name}</div>
                   <div className="text-muted-foreground text-xs mt-1">{m.role}</div>
                 </div>
