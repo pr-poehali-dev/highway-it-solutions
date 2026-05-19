@@ -315,7 +315,7 @@ export default function Index() {
             <div className="w-8 h-8 rounded-lg gradient-btn flex items-center justify-center">
               <Icon name="Cpu" size={16} className="text-dark-base" />
             </div>
-            <span className="font-display font-bold text-white text-xl tracking-wider">TECH<span className="neon-text">HUNT</span></span>
+            <span className="font-display font-bold text-white text-xl tracking-wider">HIGH<span className="neon-text">WAY</span></span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             {NAV_ITEMS.map((item) => (
@@ -623,9 +623,9 @@ export default function Index() {
             <div className="w-7 h-7 rounded-lg gradient-btn flex items-center justify-center">
               <Icon name="Cpu" size={14} className="text-dark-base" />
             </div>
-            <span className="font-display font-bold text-white text-lg tracking-wider">TECH<span className="neon-text">HUNT</span></span>
+            <span className="font-display font-bold text-white text-lg tracking-wider">HIGH<span className="neon-text">WAY</span></span>
           </div>
-          <p className="text-muted-foreground text-sm">© 2026 TechHunt. Все права защищены.</p>
+          <p className="text-muted-foreground text-sm">© 2026 Highway. Все права защищены.</p>
           <div className="flex gap-5">
             {["Политика", "Оферта", "FAQ"].map((l) => (
               <button key={l} className="text-muted-foreground text-sm hover:text-neon-cyan transition-colors">{l}</button>
