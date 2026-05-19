@@ -311,11 +311,8 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-40 glass border-b border-white/5">
         <div className="container mx-auto px-4 flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg gradient-btn flex items-center justify-center">
-              <Icon name="Cpu" size={16} className="text-dark-base" />
-            </div>
-            <span className="font-display font-bold text-white text-xl tracking-wider">HIGH<span className="neon-text">WAY</span></span>
+          <div className="flex items-center">
+            <img src="https://cdn.poehali.dev/projects/eb6178e8-67b6-4ad7-9c04-d85c47d4f367/bucket/ccd34b27-481d-43be-beb1-db56a3cd6656.png" alt="Highway" className="h-10 w-auto" style={{ filter: 'brightness(0) invert(1)' }} />
           </div>
           <div className="hidden md:flex items-center gap-8">
             {NAV_ITEMS.map((item) => (
@@ -619,11 +616,8 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="py-10 border-t border-white/5">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg gradient-btn flex items-center justify-center">
-              <Icon name="Cpu" size={14} className="text-dark-base" />
-            </div>
-            <span className="font-display font-bold text-white text-lg tracking-wider">HIGH<span className="neon-text">WAY</span></span>
+          <div className="flex items-center">
+            <img src="https://cdn.poehali.dev/projects/eb6178e8-67b6-4ad7-9c04-d85c47d4f367/bucket/ccd34b27-481d-43be-beb1-db56a3cd6656.png" alt="Highway" className="h-9 w-auto" style={{ filter: 'brightness(0) invert(1)' }} />
           </div>
           <p className="text-muted-foreground text-sm">© 2026 Highway. Все права защищены.</p>
           <div className="flex gap-5">
